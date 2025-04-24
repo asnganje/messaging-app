@@ -65,3 +65,5 @@ group :test do
 end
 gem "dotenv-rails"
 gem "devise"
+
+gem "tailwindcss-ruby", "~> 4.1"
