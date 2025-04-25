@@ -23,10 +23,9 @@
   </head>
 
   <body class="bg-gray-100 text-gray-800">
+    <%= render 'layouts/notices'%>
     <%= render 'layouts/navigation' %>
     <main class="container mx-auto mt-10 px-5">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
       <%= yield %>
     </main>
   </body>
